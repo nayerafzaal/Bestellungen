@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.nayerafzaalahmad.bestellungen.FullscreenActivity">
+
+    <ListView
+        android:id="@+id/Auswahlliste"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+
+        android:layout_below="@+id/button"
+        tools:listitem="@android:layout/simple_list_item_1" />
+
+    <Button
+        android:id="@+id/button"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/eingabe"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/eingabe"
+        android:text=" Hinzufügen " />
+
+    <EditText
+        android:id="@+id/eingabe"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="scharf"
+        android:textColor="#f80404" />
+
+    <ListView
+        android:id="@+id/BestelltListe"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+
+        android:layout_above="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Auswahlliste"
+        android:background="#889a83" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+
+        android:layout_alignEnd="@+id/pr"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/pr"
+        android:text="Zurück"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/savedata"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/button"
+        android:text="  Speichern  " />
+
+    <Button
+        android:id="@+id/loaddata"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/savedata"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/savedata"
+        android:layout_toRightOf="@+id/savedata"
+        android:text="    Laden   " />
+
+    <Button
+        android:id="@+id/pr"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/loaddata"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/loaddata"
+        android:layout_toRightOf="@+id/loaddata"
+        android:text="   DRUCKEN   " />
+
+
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Bestellungen</string>
+    <string-array name="food">
+        <item>Tische</item>
+        <item>KalteVorspeisen</item>
+        <item>WarmeVorspseisen</item>
+        <item>EuroGerichte</item>
+        <item>Grillplatte</item>
+        <item>FischGerichte</item>
+        <item>Fischplatten</item>
+        <item>Nachspeisen</item>
+        <item>VomGrill</item>
+        <item>Kleinegaeste</item>
+        <item>Getränke</item>
+    </string-array>
+    <string-array name="Tische">
+        <item>Tische</item>
+        <item>Tisch 1</item>
+        <item>Tisch 2</item>
+        <item>Tisch 3</item>
+        <item>Tisch 4</item>
+        <item>Tisch 5</item>
+        <item>Tisch 6</item>
+        <item>Tisch 7</item>
+        <item>Tisch 8</item>
+        <item>Tisch 9</item>
+        <item>Tisch 10</item>
+        <item>Tisch 11</item>
+        <item>Tisch 12</item>
+        <item>Tisch 13</item>
+        <item>Tisch 14</item>
+        <item>Tisch 15</item>
+    </string-array>
+    <string-array name="KalteVorspeisen">
+        <item>KalteVorspeisen</item>
+        <item>Oktapus Salat</item>
+        <item>Taramo Salat</item>
+        <item>Chtipati</item>
+        <item>Feta</item>
+        <item>Zaziki</item>
+        <item>Portion Peperoni mit Oliven</item>
+        <item>Portion Peperoni ohne Oliven</item>
+        <item>Dolmades</item>
+        <item>Pikilia</item>
+    </string-array>
+    <string-array name="WarmeVorspseisen">
+        <item>WarmeVorspseisen</item>
+        <item>Saganaki (Grill)</item>
+        <item>Saganaki überbacken</item>
+        <item>Pitta</item>
+        <item>mit Knoblauch</item>
+        <item>Gefüllte Papprika</item>
+        <item>Gegrillte Peperoni mit Knoblauch</item>
+        <item>Gefüllte Peperoni ohne Knoblauch</item>
+        <item>Auberginen un dZucchini gebacken</item>
+    </string-array>
+    <string-array name="EuroGerichte">
+        <item>EuroGerichte</item>
+        <item>Schnitzel Wiener Art</item>
+    </string-array>
+    <string-array name="Grillplatte">
+        <item>Grillplatte</item>
+        <item>Kronos-Platte- Gyros</item>
+        <item>Grüne Bohnen</item>
+        <item>Kolosos-Platte</item>
+        <item>Pirgos-Platte</item>
+        <item>Zaziki und Salat</item>
+        <item>Naxos-Platte Gyros, Bifteki, Muscheln</item>
+        <item>Pommes, Reis, Zaziki</item>
+    </string-array>
+
+    <string-array name="FischGerichte">
+        <item>FischGerichte</item>
+        <item>Kalamaria vom Grill, mit Pita oder Resi oder Pommes</item>
+        <item>Zaziki und Salat</item>
+        <item>Kalamaria mit Pita und Salat</item>
+        <item>Kalamaria mit Reis oder Pommes</item>
+    </string-array>
+    <string-array name="Fischplatten">
+        <item>Fischplatten</item>
+        <item>Ägäon-Platte 1 Person</item>
+        <item>Kalamaria, Muscheln, Seezunge, Scampi, Reis und Salat</item>
+        <item>Ägäon-Platte 2 Personen</item>
+    </string-array>
+    <string-array name="Nachspeisen">
+        <item>Nachspeisen</item>
+        <item>Galakturigo</item>
+        <item>Joghurt mit Honig</item>
+    </string-array>
+    <string-array name="VomGrill">
+        <item>VomGrill</item>
+        <item>Gyros mit Pita</item>
+        <item>Gyros-souvlaki mit Pita, Zaziki und Salat</item>
+        <item>Gyros-Kalamaria mit Pita</item>
+
+    </string-array>
+    <string-array name="Kleinegaeste">
+        <item>Kleinegaeste</item>
+        <item>Gyros Kalamaria mit Pita Zaziki und Salat</item>
+        <item>Gyros mit Pita</item>
+    </string-array>
+</resources>
